@@ -123,7 +123,7 @@ def parse_opt():
     parser.add_argument(
         '--lr_step',
         type=int,
-        default=10)
+        default=3)
         
     # Post processing
     parser.add_argument(
